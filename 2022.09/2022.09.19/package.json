@@ -2,7 +2,7 @@
   "name": "2022.09.19",
   "version": "1.0.0",
   "description": "",
-  "main": "node-3.js",
+  "main": "10rows-server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
