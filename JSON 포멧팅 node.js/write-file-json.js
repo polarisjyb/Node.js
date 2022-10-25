@@ -34,4 +34,4 @@ fs.writeFile('./pokemonJSON.json', pokemonJSON, (err) => {
 // file system 에서 지원하는 파일 쓰기(write) === 파일 만들기 함수를 통해
 // 해당 데이터를 json 방식으로 저장했다.
 
-// 추후 DB를 관리하는 서버에서 해당 json 파이릉ㄹ '넘겨받아' 저장할 수 있다.
+// 추후 DB를 관리하는 서버에서 해당 json 파일을 '넘겨받아' 저장할 수 있다.
