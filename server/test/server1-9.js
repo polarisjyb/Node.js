@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 http.createServer((req, res) => {
   res.writeHead(200, {"Content-Type": "text/html; charset=utf-8"})
-  res.write('<h1>안녕 노드야</h1>');
+  res.write('<h1>안녕 노드</h1>');
   res.end('연습용으로 만든 서버입니다.');
 })
   .listen(port, () => {
