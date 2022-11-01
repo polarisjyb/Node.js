@@ -14,7 +14,7 @@ http.createServer(async (req, res) => {
   } catch (err) {
     console.error(err);
     res.writeHead(500, { 'Content-Type' : 'text/plain; charset=utf-8' });
-    res.end(ree.message);
+    res.end(req.message);
   }
 })
   .listen(8080, () => {
